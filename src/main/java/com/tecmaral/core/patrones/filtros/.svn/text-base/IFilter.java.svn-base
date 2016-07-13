@@ -1,0 +1,25 @@
+package com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros;
+
+
+
+public interface IFilter {
+
+	/**
+	 * @param original
+	 * @param target
+	 * @return
+	 */
+	public Object apply(final Object original,
+			final Object target) throws Exception;
+
+	/**
+	 * @param aFilter
+	 */
+	public void addFilter(final IFilter aFilter);
+
+	/**
+	 * @param aFilter
+	 */
+	public void removeFilter(final IFilter aFilter);
+
+}

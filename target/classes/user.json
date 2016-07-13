@@ -1,0 +1,252 @@
+        "datosIdentificacion": {
+            "tipoIdentific": "MSISDN",
+            "identCliente": "626257665"
+        },
+        "datosAutorizado": {
+            "nombre": "MA J",
+            "apellido1": "GAA",
+            "apellido2": "292153499"
+        },
+        "datosObsoletos": {
+            "UltimoAcceso": "2016-02-23T12:55:02",
+            "Migrado": "false"
+        },
+        "datosAdicionales": {
+            "AccessProfileEnum": "PERFIL_CLIENTE",
+            "FechaUltimoReseteo": "2013-07-19T13:55:23",
+            "FechaAlta": "2010-02-10T14:30:00",
+            "FechaModClave": "2013-07-19T13:55:23",
+            "Idioma": "es",
+            "FechaModificacionIdioma": "",
+            "Role": "1",
+            "flagEmailMigrable": "false",
+            "flagEmailMigrado": "false",
+            "flagEmailVerificado": "false",
+            "keyForo": "",
+            "EmailBBDD": "",
+            "FechaUltimoAcceso": "2016-02-23T12:55:02"
+        },
+        "CIF": {
+            "managedMSISDN": "626257665",
+            "numInvalidPasswordLogin": "0",
+            "blockedPasswordLogin": "0",
+            "ProfileEnum": "PERFIL_CLIENTEPOSPAGO",
+            "Permisos": "00000000000000",
+            "DatosCliente": {
+                "ObjId": "292153499",
+                "TipoIdentific": "NIF",
+                "IdentCliente": "72884162Z",
+                "IdCliente": "1-C1F-3415",
+                "NumCliente": "34846712",
+                "DatosAdicionalesCliente": {
+                    "nombreCliente": "MA J",
+                    "apellido1Cliente": "GAA",
+                    "apellido2Cliente": "292153499",
+                    "FlagMigradoSiebel": "true",
+                    "nombre": "MA J",
+                    "apellido1": "GAA",
+                    "apellido2": "292153499",
+                    "flagMarcaClienteMoon": "false",
+                    "descripcionMarcaClienteMoon": ""
+                }
+            },
+            "Segmentacion": "",
+            "FlagMicroEmpresa": "false",
+            "Cuenta": [
+                {
+                    "DatosCuenta": {
+                        "Permisos": "00000000000000",
+                        "accId": "21186454",
+                        "accNumber": "1-C1J-2816",
+                        "billCicle": "1",
+                        "postalCode": "42240",
+                        "FactType": "3",
+                        "accAntiquity": "2009-11-30T00:00:00"
+                    },
+                    "Linea": [
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "607029421",
+                            "type": "postpaid",
+                            "subtype": "Linea fija + ADSL",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "associatedLandline": "975101614",
+                            "voicePricePlan": "TJDLC",
+                            "dataPricePlan": "",
+                            "activationDate": "2009-11-30T10:51:00"
+                        },
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "607029422",
+                            "type": "postpaid",
+                            "subtype": "Modem",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "voicePricePlan": "LDGSM",
+                            "dataPricePlan": "MHT3G",
+                            "activationDate": "2009-11-30T20:21:00"
+                        },
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "626257665",
+                            "type": "postpaid",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "voicePricePlan": "USIXS",
+                            "dataPricePlan": "IPIXS",
+                            "activationDate": "2012-11-12T15:41:00"
+                        }
+                    ]
+                },
+                {
+                    "DatosCuenta": {
+                        "Permisos": "00000000000000",
+                        "accId": "50047754",
+                        "accNumber": "1-LU1PZM",
+                        "billCicle": "22",
+                        "postalCode": "42240",
+                        "FactType": "3",
+                        "accAntiquity": "2014-02-19T00:00:00"
+                    },
+                    "Linea": {
+                        "Permisos{
+    "Usuario": {
+        "DatosIdentificacion": {
+            "TipoIdentific": "MSISDN",
+            "IdentCliente": "626257665"
+        },
+        "DatosAutorizado": {
+            "nombre": "MA J",
+            "apellido1": "GAA",
+            "apellido2": "292153499"
+        },
+        "DatosObsoletos": {
+            "UltimoAcceso": "2016-02-23T12:55:02",
+            "Migrado": "false"
+        },
+        "DatosAdicionales": {
+            "AccessProfileEnum": "PERFIL_CLIENTE",
+            "FechaUltimoReseteo": "2013-07-19T13:55:23",
+            "FechaAlta": "2010-02-10T14:30:00",
+            "FechaModClave": "2013-07-19T13:55:23",
+            "Idioma": "es",
+            "FechaModificacionIdioma": "",
+            "Role": "1",
+            "flagEmailMigrable": "false",
+            "flagEmailMigrado": "false",
+            "flagEmailVerificado": "false",
+            "keyForo": "",
+            "EmailBBDD": "",
+            "FechaUltimoAcceso": "2016-02-23T12:55:02"
+        },
+        "CIF": {
+            "managedMSISDN": "626257665",
+            "numInvalidPasswordLogin": "0",
+            "blockedPasswordLogin": "0",
+            "ProfileEnum": "PERFIL_CLIENTEPOSPAGO",
+            "Permisos": "00000000000000",
+            "DatosCliente": {
+                "ObjId": "292153499",
+                "TipoIdentific": "NIF",
+                "IdentCliente": "72884162Z",
+                "IdCliente": "1-C1F-3415",
+                "NumCliente": "34846712",
+                "DatosAdicionalesCliente": {
+                    "nombreCliente": "MA J",
+                    "apellido1Cliente": "GAA",
+                    "apellido2Cliente": "292153499",
+                    "FlagMigradoSiebel": "true",
+                    "nombre": "MA J",
+                    "apellido1": "GAA",
+                    "apellido2": "292153499",
+                    "flagMarcaClienteMoon": "false",
+                    "descripcionMarcaClienteMoon": ""
+                }
+            },
+            "Segmentacion": "",
+            "FlagMicroEmpresa": "false",
+            "Cuenta": [
+                {
+                    "DatosCuenta": {
+                        "Permisos": "00000000000000",
+                        "accId": "21186454",
+                        "accNumber": "1-C1J-2816",
+                        "billCicle": "1",
+                        "postalCode": "42240",
+                        "FactType": "3",
+                        "accAntiquity": "2009-11-30T00:00:00"
+                    },
+                    "Linea": [
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "607029421",
+                            "type": "postpaid",
+                            "subtype": "Linea fija + ADSL",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "associatedLandline": "975101614",
+                            "voicePricePlan": "TJDLC",
+                            "dataPricePlan": "",
+                            "activationDate": "2009-11-30T10:51:00"
+                        },
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "607029422",
+                            "type": "postpaid",
+                            "subtype": "Modem",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "voicePricePlan": "LDGSM",
+                            "dataPricePlan": "MHT3G",
+                            "activationDate": "2009-11-30T20:21:00"
+                        },
+                        {
+                            "Permisos": "00000000000000",
+                            "msisdn": "626257665",
+                            "type": "postpaid",
+                            "statusCode": "AC",
+                            "statusDescription": "",
+                            "voicePricePlan": "USIXS",
+                            "dataPricePlan": "IPIXS",
+                            "activationDate": "2012-11-12T15:41:00"
+                        }
+                    ]
+                },
+                {
+                    "DatosCuenta": {
+                        "Permisos": "00000000000000",
+                        "accId": "50047754",
+                        "accNumber": "1-LU1PZM",
+                        "billCicle": "22",
+                        "postalCode": "42240",
+                        "FactType": "3",
+                        "accAntiquity": "2014-02-19T00:00:00"
+                    },
+                    "Linea": {
+                        "Permisos": "00000000000000",
+                        "msisdn": "610546233",
+                        "type": "postpaid",
+                        "statusCode": "AC",
+                        "statusDescription": "",
+                        "voicePricePlan": "UNLIS",
+                        "dataPricePlan": "IPDIS",
+                        "activationDate": "2014-02-19T11:07:25"
+                    }
+                }
+            ]
+        }
+    }
+}": "00000000000000",
+                        "msisdn": "610546233",
+                        "type": "postpaid",
+                        "statusCode": "AC",
+                        "statusDescription": "",
+                        "voicePricePlan": "UNLIS",
+                        "dataPricePlan": "IPDIS",
+                        "activationDate": "2014-02-19T11:07:25"
+                    }
+                }
+            ]
+        }
+   

@@ -1,0 +1,24 @@
+package com.indra.vodafone.mivodafone.portlet.tarifaActual.reglas.ejemplo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros.IFilter;
+
+public class FiltroTarifasActualPrueba {
+
+	@Autowired
+	private IFilter filtroTarifaActualPrueba;
+
+	public IFilter getFiltroTarifaActualPrueba() {
+		return filtroTarifaActualPrueba;
+	}
+
+	public void setFiltroTarifaActualPrueba(IFilter filtroTarifaActualPrueba) {
+		this.filtroTarifaActualPrueba = filtroTarifaActualPrueba;
+	}
+	
+	
+	
+	
+	
+}

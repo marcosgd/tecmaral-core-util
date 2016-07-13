@@ -1,0 +1,12 @@
+package com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros;
+
+
+
+public class SimpleFilter extends AbstractSimpleFilter {
+
+	@Override
+	public Object apply(final Object original,
+			final Object target) {
+		return target;
+	}
+}

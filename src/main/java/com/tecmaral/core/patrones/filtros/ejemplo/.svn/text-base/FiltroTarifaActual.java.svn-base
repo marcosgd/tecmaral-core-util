@@ -1,0 +1,44 @@
+package com.indra.vodafone.mivodafone.portlet.tarifaActual.reglas.ejemplo;
+
+import com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros.CompositeFilter;
+import com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros.IFilter;
+import com.indra.vodafone.mivodafone.portlet.tarifaActual.reglas.prepago.ConsultaTarifaPrepago;
+
+public class FiltroTarifaActual {
+
+	private IFilter filtroTarifaActual;
+	
+	
+	public FiltroTarifaActual(){
+		
+		ConsultaTarifaPrepago consultaTarifa = new ConsultaTarifaPrepago();
+		ConsultaDescripcion consultaDescripcion = new ConsultaDescripcion();
+		ConsultaBeneficios consultaBeneficios = new ConsultaBeneficios();
+		CascadaUnoFilter cascadoUnoFilter = new CascadaUnoFilter();
+		CascadaDosFilter cascadaDosFilter = new CascadaDosFilter();
+		CascadaTresFilter cascadaTresFilter = new CascadaTresFilter();
+		cascadoUnoFilter.setNextFilter(cascadaDosFilter);
+		cascadaDosFilter.setNextFilter(cascadaTresFilter);
+		
+		filtroTarifaActual = new CompositeFilter();
+		
+		filtroTarifaActual.addFilter(cascadoUnoFilter);
+		filtroTarifaActual.addFilter(consultaTarifa);
+		filtroTarifaActual.addFilter(consultaDescripcion);
+		filtroTarifaActual.addFilter(consultaBeneficios);
+	
+		
+		
+	}
+
+
+	public IFilter getFiltroTarifaActual() {
+		return filtroTarifaActual;
+	}
+
+	public void setFiltroTarifaActual(IFilter filtroTarifaActual) {
+		this.filtroTarifaActual = filtroTarifaActual;
+	}
+	
+	
+}

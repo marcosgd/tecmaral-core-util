@@ -1,0 +1,50 @@
+package com.indra.vodafone.mivodafone.portlet.tarifaActual.filtros;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+public abstract class AbstractCascadeFilter extends AbstractFilter {
+
+	private static final Logger logger = LoggerFactory.getLogger(AbstractCascadeFilter.class);
+
+	private IFilter nextFilter;
+
+	public Object apply(final Object original,
+			final Object target) throws Exception {
+		logger.debug("[Apply " + this.getClass().getName() + "]");
+
+		Object out = specificApply(original, target);
+		if (nextFilter != null) {
+			out = nextFilter.apply(original, out);
+		}
+		return out;
+	}
+
+	/**
+	 * @param original
+	 * @param target
+	 * @return
+	 */
+	public abstract Object specificApply(final Object original,
+			final Object target) throws Exception;
+
+	/**
+	 * @return
+	 */
+	public IFilter getNextFilter() {
+		return nextFilter;
+	}
+
+	/**
+	 * @param nextFilter
+	 */
+	public void setNextFilter(final IFilter nextFilter) {
+		this.nextFilter = nextFilter;
+	}
+
+	@Override
+	public void addFilter(final IFilter aFilter) {
+		this.nextFilter = aFilter;
+	}
+}
